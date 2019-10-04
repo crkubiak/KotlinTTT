@@ -2,4 +2,9 @@
     <string name="app_name">Tic Tac Toe</string>
     <string name="action_settings">Settings</string>
     <string name="play_tic_tac_toe">Play Tic Tac Toe</string>
+    <string name="human_vs_human">Human Vs Human</string>
+    <string name="human_vs_minimax_computer">Human vs MiniMax Computer</string>
+    <string name="random_choice_cpu_vs_random_choice_cpu">Random Choice CPU vs Random Choice CPU</string>
+    <string name="minimaxcomputer_vs_minimax_computer">MiniMaxComputer vs. MiniMax Computer</string>
+    <string name="human_vs_random_choice_cpu">Human vs Random Choice CPU</string>
 </resources>

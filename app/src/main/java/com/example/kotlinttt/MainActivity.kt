@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         playButton.setOnClickListener {
             d("charles", "play pushed")
             supportFragmentManager.beginTransaction()
-                .replace(R.id.frameLayout, TicTacToeBoard()).commit()
+                .replace(R.id.frameLayout, GameSelection()).commit()
 
 
         }
