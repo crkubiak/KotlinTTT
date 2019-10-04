@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 
+
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
 
@@ -21,6 +22,8 @@ class MainActivity : AppCompatActivity() {
             d("charles", "play pushed")
             supportFragmentManager.beginTransaction()
                 .replace(R.id.frameLayout, TicTacToeBoard()).commit()
+
+
         }
     }
 }
